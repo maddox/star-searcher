@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "star_searcher"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "jon@jonsthoughtsoneverything.com"
-    gem.homepage = "http://github.com/maddox/star_searcher"
+    gem.summary = "Simple Ruby client for Star Search"
+    gem.description = "Simple Ruby Client for Star Search - http://github.com/maddox/star-search"
+    gem.email = "jon@mustacheinc.com"
+    gem.homepage = "http://github.com/maddox/star-searcher"
     gem.authors = ["Jon Maddox"]
+    gem.add_dependency "httparty", ">= 0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
