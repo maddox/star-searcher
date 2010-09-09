@@ -1,6 +1,6 @@
 # Star Searcher!
 
-Star Searcher is just a simple Ruby client that lets you talk to your Star Search (http://github.com/maddox/star-search).
+Star Searcher is just a simple Ruby client that lets you talk to your Star Search (This is an [http://github.com/maddox/star-search](http://github.com/maddox/star-search)).
 
 ## Requirements
 
